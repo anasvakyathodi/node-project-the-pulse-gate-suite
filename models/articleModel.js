@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 
+// Article Schema
 const articleSchema = new mongoose.Schema({
   title: { type: String, required: true },
   content: { type: String, required: true },
